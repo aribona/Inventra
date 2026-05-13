@@ -170,9 +170,7 @@ export default function SignupPage() {
           </form>
 
           <p className="text-[11px] text-center text-muted-foreground">
-            By signing up, you agree to our{" "}
-            <Link href="#" className="text-primary hover:underline">Terms</Link> and{" "}
-            <Link href="#" className="text-primary hover:underline">Privacy Policy</Link>.
+            By signing up, you agree to our Terms and Privacy Policy.
           </p>
         </Card>
 
