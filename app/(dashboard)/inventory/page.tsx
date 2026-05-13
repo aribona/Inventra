@@ -159,7 +159,7 @@ function ImportDialog({ onSuccess }: { onSuccess: () => void }) {
 
   function downloadTemplate() {
     const template = "name,sku,unitCost,unitOfMeasure,sellingPrice,reorderPoint,reorderQuantity,minStockLevel,maxStockLevel,barcode,description\nOrganic Milk 1L,MILK-1001,1.50,each,3.99,20,100,10,500,,Full-fat organic milk";
-    downloadCSV(template, "inventra-import-template.csv");
+    downloadCSV(template, "stockpulse-import-template.csv");
   }
 
   return (
@@ -297,7 +297,7 @@ export default function InventoryPage() {
     const items = await exportQuery.refetch();
     if (items.data) {
       const csv = buildCSV(items.data as unknown as Record<string, string | number>[]);
-      downloadCSV(csv, `inventra-${new Date().toISOString().split("T")[0]}.csv`);
+      downloadCSV(csv, `stockpulse-${new Date().toISOString().split("T")[0]}.csv`);
     }
     setExporting(false);
   }

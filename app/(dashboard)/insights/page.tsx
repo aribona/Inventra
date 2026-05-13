@@ -105,7 +105,7 @@ export default function InsightsPage() {
           <EmptyState
             icon={Lightbulb}
             title="No insights to show"
-            description="Inventra will analyze your inventory patterns and surface actionable recommendations here."
+            description="Stockpulse will analyze your inventory patterns and surface actionable recommendations here."
             action={
               <Button size="sm" onClick={() => regenerateMutation.mutate()} disabled={regenerateMutation.isPending}>
                 Generate insights now

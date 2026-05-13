@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: "Inventra", template: "%s — Inventra" },
+  title: { default: "Stockpulse", template: "%s — Stockpulse" },
   description: "AI-powered inventory intelligence platform. Reduce waste, minimize COGS, and forecast shortages before they happen.",
   icons: { icon: "/favicon.ico" },
 };

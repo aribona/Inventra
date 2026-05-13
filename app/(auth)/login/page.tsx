@@ -51,7 +51,7 @@ export default function LoginPage() {
             <Zap className="h-5 w-5 text-primary-foreground" />
           </div>
           <div className="text-center">
-            <h1 className="text-xl font-bold tracking-tight">Inventra</h1>
+            <h1 className="text-xl font-bold tracking-tight">Stockpulse</h1>
             <p className="text-sm text-muted-foreground">Inventory intelligence platform</p>
           </div>
         </div>

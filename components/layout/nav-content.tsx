@@ -41,7 +41,7 @@ export function NavContent({ onNavigate }: NavContentProps) {
           <Zap className="h-4 w-4 text-primary-foreground" />
         </div>
         <span className="text-base font-semibold tracking-tight text-sidebar-foreground">
-          Inventra
+          Stockpulse
         </span>
       </div>
 
