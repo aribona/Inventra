@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { PackageSearch } from "lucide-react";
 
 export default function NotFound() {
@@ -15,9 +14,12 @@ export default function NotFound() {
             The page you&apos;re looking for doesn&apos;t exist or has been moved.
           </p>
         </div>
-        <Button asChild className="w-full">
-          <Link href="/overview">Go to overview</Link>
-        </Button>
+        <Link
+          href="/overview"
+          className="inline-flex w-full items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90 transition-colors"
+        >
+          Go to overview
+        </Link>
       </div>
     </div>
   );
